@@ -2,8 +2,14 @@
 using namespace std;
 int main()
 {
-	int n = 3;
-	for (int i = 0; i < 3; i++) {
-		cout<<"elo"
+	int a <<cin<<"wpisz pierwsz¹ liczbê"<<endl;
+	int b << cin << "wpisz drug¹ liczbê" << endl;
+	if (a > b) {
+		a -= b;
+		cout << "wynik odejmowania: " + a;
+	}
+	else if (a < b) {
+		b -= a;
+		cout << "wynik odejmowania: " + b;
 	}
 }
